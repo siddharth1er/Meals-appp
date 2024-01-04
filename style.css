@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+}
+
+
+header{
+    display: flex;
+    margin: 15px;
+    background-color: honeydew;
+    padding: 5px 50px;
+    overflow: auto;
+}
+
+
+header a{
+    text-decoration: none;
+    font-size: 40px;
+    margin: 15px;
+}
+
+
+header a:hover{
+    text-decoration: dotted;
+}
+
+img{
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: 55px;
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #a8afbe;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+}
+
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+
+.meal {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.meal img {
+    width: 50%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.meal h2 {
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    color: red;
+}
+
+.meal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.meal li {
+    margin-bottom: 5px;
+}
+
+.meal button {
+    background-color: #fff;
+    border: none;
+    color: #ff5945;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.meal button:hover {
+    background-color: #4d0505;
+}
+
+.description {
+    display: none;
+}
+  
+.show {
+    display: block;
+}
+
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    word-spacing: 3px;
+    line-height: 35px;
+    text-align: justify;
+    color: blue;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px;
+    
+}
